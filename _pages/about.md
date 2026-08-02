@@ -46,26 +46,20 @@ redirect_from:
 
 My work explores how model compression and multimodal alignment introduce new security risks, and how these risks can be mitigated without sacrificing model utility. Current interests include **quantization-conditioned backdoors**, **zero-shot model purification**, **model copyright protection**, and **multimodal model security**.
 
-<div class="research-scroll" tabindex="0" aria-label="Scrollable research and research experience list" markdown="1">
+<div class="research-scroll" tabindex="0" aria-label="Scrollable research and research experience list">
 
-<div class="research-card featured" markdown="1">
-<span class="card-label">MANUSCRIPT · FIRST AUTHOR</span>
-
-## ZPQB: Zero-Shot Purification of Quantization-Conditioned Backdoors
-
-Submitted to *IEEE Transactions on Information Forensics & Security* (TIFS, CCF-A).
-
-We propose a data-free defense for quantization-conditioned backdoors. The method synthesizes inputs that maximize behavioral discrepancies between full-precision and quantized models under batch-normalization constraints, then selectively updates the quantized model through gradient masking, knowledge distillation, stability anchoring, and feature alignment. The goal is to suppress hidden backdoor behavior while preserving semantic consistency and low-bit performance.
+<div class="research-card featured">
+  <span class="card-label">MANUSCRIPT &middot; FIRST AUTHOR</span>
+  <h2>ZPQB: Zero-Shot Purification of Quantization-Conditioned Backdoors</h2>
+  <p>Submitted to <em>IEEE Transactions on Information Forensics &amp; Security</em> (TIFS, CCF-A).</p>
+  <p>We propose a data-free defense for quantization-conditioned backdoors. The method synthesizes inputs that maximize behavioral discrepancies between full-precision and quantized models under batch-normalization constraints, then selectively updates the quantized model through gradient masking, knowledge distillation, stability anchoring, and feature alignment. The goal is to suppress hidden backdoor behavior while preserving semantic consistency and low-bit performance.</p>
 </div>
 
-<div class="research-card" markdown="1">
-<span class="card-label">AUTHORIZED INVENTION PATENT · FIRST INVENTOR</span>
-
-## Dual-key model copyright authentication
-
-**一种双密钥模型版权认证方法、装置及存储介质**
-
-This method combines an adversarial perturbation key with a quantization-parameter key. Authentication succeeds only when both keys are present, improving the security and reliability of model ownership verification.
+<div class="research-card">
+  <span class="card-label">AUTHORIZED INVENTION PATENT &middot; FIRST INVENTOR</span>
+  <h2>Dual-key model copyright authentication</h2>
+  <p><strong>A Dual-Key Model Copyright Authentication Method, Device, and Storage Medium</strong></p>
+  <p>This method combines an adversarial perturbation key with a quantization-parameter key. Authentication succeeds only when both keys are present, improving the security and reliability of model ownership verification.</p>
 </div>
 
 <div class="research-card">
