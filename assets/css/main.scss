@@ -209,36 +209,28 @@ body {
     }
 }
 
-.metric-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1px;
-    margin: 1.5em 0 3em;
-    overflow: hidden;
-    border: 1px solid var(--yh-line);
-    border-radius: 8px;
-    background: var(--yh-line);
-}
+.news-list {
+    margin-top: .75em;
+    border-top: 1px solid var(--yh-line);
 
-.metric {
-    padding: 1.1em;
-    background: #fff;
-
-    strong,
-    span {
-        display: block;
+    article {
+        display: grid;
+        grid-template-columns: 5.2em 1fr;
+        gap: 1em;
+        padding: 1em 0;
+        border-bottom: 1px solid var(--yh-line);
     }
 
-    strong {
-        color: var(--yh-blue-dark);
-        font-size: 1.35em;
-        letter-spacing: -.025em;
+    time {
+        color: var(--yh-blue);
+        font-size: .82em;
+        font-weight: 800;
+        letter-spacing: .04em;
     }
 
-    span {
-        margin-top: .15em;
+    p {
+        margin: 0;
         color: var(--yh-muted);
-        font-size: .78em;
     }
 }
 
@@ -300,6 +292,69 @@ body {
 
     li {
         margin-bottom: .55em;
+    }
+}
+
+.award-panel {
+    margin: 1em 0 2em;
+    padding: 1.4em;
+    border-radius: 8px;
+    background: var(--yh-sky);
+
+    h3 {
+        margin-top: 0;
+        color: var(--yh-blue-dark);
+    }
+
+    ul {
+        columns: 2;
+        column-gap: 2.5em;
+    }
+
+    li {
+        break-inside: avoid;
+        margin-bottom: .55em;
+    }
+}
+
+.award-timeline {
+    display: grid;
+    gap: .75em;
+
+    article {
+        display: grid;
+        grid-template-columns: 5.2em 1fr;
+        gap: .8em;
+        padding: 1em;
+        border: 1px solid var(--yh-line);
+        border-radius: 7px;
+        background: #fff;
+    }
+
+    time {
+        color: var(--yh-blue);
+        font-size: .78em;
+        font-weight: 800;
+    }
+
+    p,
+    strong,
+    span {
+        display: block;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    strong {
+        margin-bottom: .15em;
+        color: var(--yh-blue-dark);
+    }
+
+    span {
+        color: var(--yh-muted);
+        line-height: 1.55;
     }
 }
 
@@ -376,11 +431,11 @@ body {
 }
 
 @include breakpoint($medium) {
-    .metric-grid {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+    .two-column-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .two-column-list {
+    .award-timeline {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -403,5 +458,9 @@ body {
     .author__avatar img {
         width: 72px;
         height: 96px;
+    }
+
+    .award-panel ul {
+        columns: 1;
     }
 }

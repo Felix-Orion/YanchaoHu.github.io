@@ -20,11 +20,24 @@ redirect_from:
   </div>
 </div>
 
-<div class="metric-grid" aria-label="Academic highlights">
-  <div class="metric"><strong>4.32/5.0</strong><span>GPA</span></div>
-  <div class="metric"><strong>1 / 281</strong><span>Overall assessment</span></div>
-  <div class="metric"><strong>2 / 281</strong><span>Major ranking · Top 0.7%</span></div>
-  <div class="metric"><strong>551</strong><span>CET-6</span></div>
+<span class="anchor" id="news"></span>
+
+# News
+
+<!-- Add future news items at the top of this list. Copy one <article> block and update its date and text. -->
+<div class="news-list">
+  <article>
+    <time datetime="2026-06">2026.06</time>
+    <p>Won the <strong>National Third Prize</strong> in the Python Group of the 17th Lanqiao Cup National Software and Information Technology Professionals Competition.</p>
+  </article>
+  <article>
+    <time datetime="2026-05">2026.05</time>
+    <p>Won the <strong>Provincial First Prize</strong> in the Python Group of the 17th Lanqiao Cup.</p>
+  </article>
+  <article>
+    <time datetime="2025-05">2025.05</time>
+    <p>Won the <strong>National Second Prize</strong> in the Software System Security Track of the National College Student Software Innovation Competition.</p>
+  </article>
 </div>
 
 <span class="anchor" id="research"></span>
@@ -79,8 +92,7 @@ This method combines an adversarial perturbation key with a quantization-paramet
 
 # Selected Awards
 
-<div class="two-column-list">
-<div markdown="1">
+<div class="award-panel" markdown="1">
 
 ### Scholarships & Honors
 
@@ -92,18 +104,23 @@ This method combines an adversarial perturbation key with a quantization-paramet
 - Outstanding Student Leader
 
 </div>
-<div markdown="1">
 
-### Competitions
+## Competition Awards
 
-- **National Second Prize**, National College Student Mathematics Competition, Non-mathematics Category A
-- **National Second Prize**, Software Innovation Competition, Software System Security Track
-- **National Third Prize**, National College Student Innovation and Invention Competition
-- **National Third Prize**, Lanqiao Cup Python Group
-- **Provincial First Prize**, Lanqiao Cup Python Group
-- Provincial awards in higher mathematics, C/C++, and innovation
-
-</div>
+<div class="award-timeline">
+  <article><time datetime="2026-06">2026.06</time><p><strong>国家级三等奖</strong><span>第十七届蓝桥杯全国软件与信息技术专业人才大赛（Python 组）</span></p></article>
+  <article><time datetime="2026-05">2026.05</time><p><strong>省级一等奖</strong><span>第十七届蓝桥杯全国软件与信息技术专业人才大赛（Python 组）</span></p></article>
+  <article><time datetime="2025-11">2025.11</time><p><strong>省级三等奖</strong><span>第七届全球校园人工智能算法精英大赛</span></p></article>
+  <article><time datetime="2025-06">2025.06</time><p><strong>校级二等奖</strong><span>第十九届数学建模大赛</span></p></article>
+  <article><time datetime="2025-06">2025.06</time><p><strong>校级铜奖</strong><span>中国国际大学生创新大赛</span></p></article>
+  <article><time datetime="2025-05">2025.05</time><p><strong>国家级二等奖</strong><span>全国大学生软件创新大赛软件系统安全赛</span></p></article>
+  <article><time datetime="2025-05">2025.05</time><p><strong>省级二等奖</strong><span>第十六届蓝桥杯全国软件与信息技术专业人才大赛（C&amp;C++ 组）</span></p></article>
+  <article><time datetime="2024-12">2024.12</time><p><strong>国家级三等奖</strong><span>全国大学生创新发明大赛</span></p></article>
+  <article><time datetime="2024-12">2024.12</time><p><strong>国家级二等奖</strong><span>第十六届全国大学生数学竞赛</span></p></article>
+  <article><time datetime="2024-11">2024.11</time><p><strong>省级一等奖</strong><span>全国大学生创新发明大赛（华东区域赛）</span></p></article>
+  <article><time datetime="2024-11">2024.11</time><p><strong>省级优胜奖</strong><span>首届泛在智能感知技术创新应用大赛</span></p></article>
+  <article><time datetime="2024-06">2024.06</time><p><strong>省级二等奖</strong><span>第二十一届高等数学竞赛本科一级 A</span></p></article>
+  <article><time datetime="2024-05">2024.05</time><p><strong>校级一等奖</strong><span>第 5 届高等数学竞赛</span></p></article>
 </div>
 
 <span class="anchor" id="education"></span>
@@ -122,7 +139,7 @@ This method combines an adversarial perturbation key with a quantization-paramet
   </div>
 </div>
 
-Core coursework includes Computer Organization, Data Structures, Programming Fundamentals, Object-Oriented Programming, Database Systems, Probability and Statistics, and Linear Algebra. I earned scores of 90 or above in 46 courses, including 25 courses at 95 or above.
+Core coursework includes Computer Organization, Data Structures, Programming Fundamentals, Object-Oriented Programming, Database Systems, Probability and Statistics, and Linear Algebra. I earned scores of 90 or above in 55 courses, including 30 courses at 95 or above.
 
 <div class="contact-panel">
   <p class="eyebrow">LET'S CONNECT</p>
