@@ -96,12 +96,12 @@ This method combines an adversarial perturbation key with a quantization-paramet
   <section class="award-window" aria-labelledby="honors-heading">
     <h2 id="honors-heading">Scholarships &amp; Honors</h2>
     <div class="award-scroll" tabindex="0" aria-label="Scrollable scholarships and honors list">
-      <article><time aria-label="Date not provided">—</time><p><strong>National Scholarship</strong><span>National-level scholarship</span></p></article>
-      <article><time aria-label="Date not provided">—</time><p><strong>President's Scholarship</strong><span>Awarded to 0.3% of the cohort</span></p></article>
-      <article><time aria-label="Date not provided">—</time><p><strong>NUIST First-Class Scholarship</strong><span>Academic excellence scholarship</span></p></article>
-      <article><time aria-label="Date not provided">—</time><p><strong>NUIST May Fourth Student Star</strong><span>University-level student honor</span></p></article>
-      <article><time aria-label="Date not provided">—</time><p><strong>NUIST Outstanding Student Model</strong><span>Awarded to the top 1%</span></p></article>
-      <article><time aria-label="Date not provided">—</time><p><strong>NUIST Outstanding Student Leader</strong><span>University-level student leadership honor</span></p></article>
+      <article><time datetime="2025-12">2025.12</time><p><strong>National Scholarship for Undergraduate Students</strong><span>National-level scholarship</span></p></article>
+      <article><time datetime="2025-12">2025.12</time><p><strong>President's Scholarship</strong><span>Nanjing University of Information Science &amp; Technology</span></p></article>
+      <article><time datetime="2026-04">2026.04</time><p><strong>May Fourth Student Star</strong><span>Nanjing University of Information Science &amp; Technology</span></p></article>
+      <article><time datetime="2025-12">2025.12</time><p><strong>Outstanding Student Model</strong><span>Nanjing University of Information Science &amp; Technology</span></p></article>
+      <article><time datetime="2025-12">2025.12</time><p><strong>Outstanding Student Leader</strong><span>Nanjing University of Information Science &amp; Technology</span></p></article>
+      <article><time datetime="2024-12">2024.12</time><p><strong>Merit Student</strong><span>Nanjing University of Information Science &amp; Technology</span></p></article>
     </div>
   </section>
 
