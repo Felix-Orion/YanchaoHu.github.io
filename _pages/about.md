@@ -92,35 +92,37 @@ This method combines an adversarial perturbation key with a quantization-paramet
 
 # Selected Awards
 
-<div class="award-panel" markdown="1">
+<div class="awards-columns">
+  <section class="award-window" aria-labelledby="honors-heading">
+    <h2 id="honors-heading">Scholarships &amp; Honors</h2>
+    <div class="award-scroll" tabindex="0" aria-label="Scrollable scholarships and honors list">
+      <article><time aria-label="Date not provided">—</time><p><strong>National Scholarship</strong><span>National-level scholarship</span></p></article>
+      <article><time aria-label="Date not provided">—</time><p><strong>President's Scholarship</strong><span>Awarded to 0.3% of the cohort</span></p></article>
+      <article><time aria-label="Date not provided">—</time><p><strong>NUIST First-Class Scholarship</strong><span>Academic excellence scholarship</span></p></article>
+      <article><time aria-label="Date not provided">—</time><p><strong>NUIST May Fourth Student Star</strong><span>University-level student honor</span></p></article>
+      <article><time aria-label="Date not provided">—</time><p><strong>NUIST Outstanding Student Model</strong><span>Awarded to the top 1%</span></p></article>
+      <article><time aria-label="Date not provided">—</time><p><strong>NUIST Outstanding Student Leader</strong><span>University-level student leadership honor</span></p></article>
+    </div>
+  </section>
 
-### Scholarships & Honors
-
-- **National Scholarship**
-- **President's Scholarship**, awarded to 0.3% of the cohort
-- NUIST First-class Scholarship
-- Outstanding Student Model, top 1%
-- NUIST May Fourth Student Star
-- Outstanding Student Leader
-
-</div>
-
-## Competition Awards
-
-<div class="award-timeline">
-  <article><time datetime="2026-06">2026.06</time><p><strong>国家级三等奖</strong><span>第十七届蓝桥杯全国软件与信息技术专业人才大赛（Python 组）</span></p></article>
-  <article><time datetime="2026-05">2026.05</time><p><strong>省级一等奖</strong><span>第十七届蓝桥杯全国软件与信息技术专业人才大赛（Python 组）</span></p></article>
-  <article><time datetime="2025-11">2025.11</time><p><strong>省级三等奖</strong><span>第七届全球校园人工智能算法精英大赛</span></p></article>
-  <article><time datetime="2025-06">2025.06</time><p><strong>校级二等奖</strong><span>第十九届数学建模大赛</span></p></article>
-  <article><time datetime="2025-06">2025.06</time><p><strong>校级铜奖</strong><span>中国国际大学生创新大赛</span></p></article>
-  <article><time datetime="2025-05">2025.05</time><p><strong>国家级二等奖</strong><span>全国大学生软件创新大赛软件系统安全赛</span></p></article>
-  <article><time datetime="2025-05">2025.05</time><p><strong>省级二等奖</strong><span>第十六届蓝桥杯全国软件与信息技术专业人才大赛（C&amp;C++ 组）</span></p></article>
-  <article><time datetime="2024-12">2024.12</time><p><strong>国家级三等奖</strong><span>全国大学生创新发明大赛</span></p></article>
-  <article><time datetime="2024-12">2024.12</time><p><strong>国家级二等奖</strong><span>第十六届全国大学生数学竞赛</span></p></article>
-  <article><time datetime="2024-11">2024.11</time><p><strong>省级一等奖</strong><span>全国大学生创新发明大赛（华东区域赛）</span></p></article>
-  <article><time datetime="2024-11">2024.11</time><p><strong>省级优胜奖</strong><span>首届泛在智能感知技术创新应用大赛</span></p></article>
-  <article><time datetime="2024-06">2024.06</time><p><strong>省级二等奖</strong><span>第二十一届高等数学竞赛本科一级 A</span></p></article>
-  <article><time datetime="2024-05">2024.05</time><p><strong>校级一等奖</strong><span>第 5 届高等数学竞赛</span></p></article>
+  <section class="award-window" aria-labelledby="competitions-heading">
+    <h2 id="competitions-heading">Competition Awards</h2>
+    <div class="award-scroll" tabindex="0" aria-label="Scrollable competition awards list">
+      <article><time datetime="2024-12">2024.12</time><p><strong>National Third Prize</strong><span>National College Student Innovation and Invention Competition</span></p></article>
+      <article><time datetime="2025-05">2025.05</time><p><strong>National Second Prize</strong><span>National College Student Software Innovation Competition, Software System Security Track</span></p></article>
+      <article><time datetime="2026-06">2026.06</time><p><strong>National Third Prize</strong><span>17th Lanqiao Cup National Software and Information Technology Professionals Competition (Python Group)</span></p></article>
+      <article><time datetime="2024-12">2024.12</time><p><strong>National Second Prize</strong><span>16th National College Student Mathematics Competition</span></p></article>
+      <article><time datetime="2024-11">2024.11</time><p><strong>Provincial First Prize</strong><span>National College Student Innovation and Invention Competition (East China Regional Competition)</span></p></article>
+      <article><time datetime="2024-06">2024.06</time><p><strong>Provincial Second Prize</strong><span>21st Advanced Mathematics Competition, Undergraduate Level I, Group A</span></p></article>
+      <article><time datetime="2026-05">2026.05</time><p><strong>Provincial First Prize</strong><span>17th Lanqiao Cup National Software and Information Technology Professionals Competition (Python Group)</span></p></article>
+      <article><time datetime="2025-05">2025.05</time><p><strong>Provincial Second Prize</strong><span>16th Lanqiao Cup National Software and Information Technology Professionals Competition (C &amp; C++ Group)</span></p></article>
+      <article><time datetime="2025-11">2025.11</time><p><strong>Provincial Third Prize</strong><span>7th Global Campus Artificial Intelligence Algorithm Elite Competition</span></p></article>
+      <article><time datetime="2024-05">2024.05</time><p><strong>University First Prize</strong><span>5th Advanced Mathematics Competition</span></p></article>
+      <article><time datetime="2024-11">2024.11</time><p><strong>Provincial Excellence Award</strong><span>1st Ubiquitous Intelligent Sensing Technology Innovation Application Competition</span></p></article>
+      <article><time datetime="2025-06">2025.06</time><p><strong>University Second Prize</strong><span>19th Mathematical Modeling Competition</span></p></article>
+      <article><time datetime="2025-06">2025.06</time><p><strong>University Bronze Award</strong><span>China International College Students' Innovation Competition</span></p></article>
+    </div>
+  </section>
 </div>
 
 <span class="anchor" id="education"></span>

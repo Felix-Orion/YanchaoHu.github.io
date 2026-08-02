@@ -295,46 +295,55 @@ body {
     }
 }
 
-.award-panel {
-    margin: 1em 0 2em;
-    padding: 1.4em;
-    border-radius: 8px;
-    background: var(--yh-sky);
+.awards-columns {
+    display: grid;
+    gap: 1.25em;
+}
 
-    h3 {
-        margin-top: 0;
-        color: var(--yh-blue-dark);
-    }
+.award-window {
+    min-width: 0;
 
-    ul {
-        columns: 2;
-        column-gap: 2.5em;
-    }
-
-    li {
-        break-inside: avoid;
-        margin-bottom: .55em;
+    > h2 {
+        margin: 0 0 .65em;
+        font-size: 1.05em;
     }
 }
 
-.award-timeline {
-    display: grid;
-    gap: .75em;
+.award-scroll {
+    height: 430px;
+    overflow-y: auto;
+    padding: .75em;
+    border: 1px solid var(--yh-line);
+    border-radius: 9px;
+    background: #f5f8f9;
+    scrollbar-color: var(--yh-blue) #e4ecef;
+    scrollbar-width: thin;
+
+    &:focus {
+        outline: 2px solid var(--yh-blue);
+        outline-offset: 3px;
+    }
 
     article {
         display: grid;
-        grid-template-columns: 5.2em 1fr;
+        grid-template-columns: 4.5em minmax(0, 1fr);
         gap: .8em;
-        padding: 1em;
+        margin-bottom: .75em;
+        padding: 1em .9em;
         border: 1px solid var(--yh-line);
         border-radius: 7px;
         background: #fff;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     time {
         color: var(--yh-blue);
-        font-size: .78em;
+        font-size: .75em;
         font-weight: 800;
+        letter-spacing: .02em;
     }
 
     p,
@@ -350,10 +359,12 @@ body {
     strong {
         margin-bottom: .15em;
         color: var(--yh-blue-dark);
+        font-size: .92em;
     }
 
     span {
         color: var(--yh-muted);
+        font-size: .86em;
         line-height: 1.55;
     }
 }
@@ -435,7 +446,7 @@ body {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .award-timeline {
+    .awards-columns {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -460,7 +471,7 @@ body {
         height: 96px;
     }
 
-    .award-panel ul {
-        columns: 1;
+    .award-scroll {
+        height: 360px;
     }
 }
