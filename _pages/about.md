@@ -46,6 +46,8 @@ redirect_from:
 
 My work explores how model compression and multimodal alignment introduce new security risks, and how these risks can be mitigated without sacrificing model utility. Current interests include **quantization-conditioned backdoors**, **zero-shot model purification**, **model copyright protection**, and **multimodal model security**.
 
+<div class="research-scroll" tabindex="0" aria-label="Scrollable research and research experience list" markdown="1">
+
 <div class="research-card featured" markdown="1">
 <span class="card-label">MANUSCRIPT · FIRST AUTHOR</span>
 
@@ -66,26 +68,24 @@ We propose a data-free defense for quantization-conditioned backdoors. The metho
 This method combines an adversarial perturbation key with a quantization-parameter key. Authentication succeeds only when both keys are present, improving the security and reliability of model ownership verification.
 </div>
 
-<span class="anchor" id="experience"></span>
-
-# Research Experience
-
-<div class="experience-list">
-  <article>
-    <p class="experience-meta">PRINCIPAL INVESTIGATOR · NATIONAL INNOVATION PROGRAM · COMPLETED</p>
+<div class="research-card">
+    <span class="card-label">PRINCIPAL INVESTIGATOR · NATIONAL INNOVATION PROGRAM · COMPLETED</span>
     <h2>Quantization backdoor analysis and defense for multimodal large models</h2>
     <p>Led a National College Students' Innovation and Entrepreneurship Training Program project. Developed a general quantization-conditioned backdoor attack for multimodal models and investigated a pruning defense based on reverse error-guided mask learning.</p>
-  </article>
-  <article>
-    <p class="experience-meta">CORE MEMBER</p>
+</div>
+
+<div class="research-card">
+    <span class="card-label">CORE MEMBER</span>
     <h2>Privacy-preserving face recognition in the Android ecosystem</h2>
     <p>Implemented fast face detection and localization with Multi-task Cascaded Convolutional Networks (MTCNN), enabling real-time privacy encryption for non-face regions.</p>
-  </article>
-  <article>
-    <p class="experience-meta">CORE MEMBER · NATIONAL INNOVATION PROGRAM</p>
+</div>
+
+<div class="research-card">
+    <span class="card-label">CORE MEMBER · NATIONAL INNOVATION PROGRAM</span>
     <h2>Backdoor security in multimodal alignment</h2>
     <p>Contributed to a research framework spanning vulnerability analysis, stealthy attack modeling, and lightweight repair, with a focus on how hidden semantic deviations form and propagate through cross-modal alignment spaces.</p>
-  </article>
+</div>
+
 </div>
 
 <span class="anchor" id="awards"></span>
