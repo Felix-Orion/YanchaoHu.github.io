@@ -2,7 +2,7 @@ _site/
 .bundle/
 .sass-cache/
 .jekyll-cache/
-vendor/
+/vendor/
 tmp/
 files/Hu-Yanchao-CV.pdf
 南京信息工程大学+胡彦超+简历.pdf
